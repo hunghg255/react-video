@@ -1,5 +1,6 @@
 import './App.css';
 import { Player } from './components/Player';
+import GitHubCorners from '@uiw/react-github-corners';
 
 function App() {
   return (
@@ -34,6 +35,8 @@ function App() {
         ]}
         poster='https://cdn.jsdelivr.net/gh/naptestdev/video-examples@master/poster.png'
       />
+
+      <GitHubCorners position='right' href='https://github.com/hunghg255/react-video' />
     </div>
   );
 }
