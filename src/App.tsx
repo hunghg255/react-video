@@ -1,6 +1,6 @@
 import './App.css';
 import { Player } from './components/Player';
-import GitHubCorners from '@uiw/react-github-corners';
+import GitHubCorners from 'react-gh-corners';
 
 function App() {
   return (
